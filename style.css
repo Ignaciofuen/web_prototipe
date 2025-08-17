@@ -1,0 +1,105 @@
+html{
+    font-family: 'Libertinus Sans', 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color:#efefef;
+}
+
+header{
+    background-color: #87a4de;
+    color: white;
+    padding: 3rem 2rem;
+
+}
+header h1{
+    font-size: 4rem;
+    margin: 0;
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    margin: 0 auto;
+   
+}
+
+section article{
+    background-color: white;
+    margin: 1rem 0;
+    
+    border-radius:0.5rem;
+    padding: 0.25rem 0;
+}
+
+section article h2,section article p{
+    margin: 1rem;
+}
+
+
+section article:hover{
+    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: white;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+footer a:hover{
+    transition: color 0.3s ease;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+/* .color {
+    border: 5px red outset;
+
+} */
+
+/*comentario de varias lineas
+.color {
+    color: #f00000;
+}
+*/
+
+
+
+/*comentario de varias lineas
+.color {
+    color: rgb(255, 0, 0,);
+}
+*/
+
+/*comentario de varias lineas
+
+dotted
+dashed
+solid   
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+
+*/
